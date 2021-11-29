@@ -1,13 +1,17 @@
+/* effect the entire page */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+
 body {
     background-color: #d9dcd6;
 }
 
+
+/* This section effects the header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -40,6 +44,8 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
+/*header end */
+
 
 a {
     color: #ffffff;
@@ -50,11 +56,12 @@ p {
     font-size: 16px;
 }
 
+/*hero image */
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("../images/digital-marketing-meeting.jpg"); 
     background-size: cover;
     background-position: center;
 }
@@ -75,6 +82,7 @@ p {
     margin-left: 20px;
 }
 
+/*this effects the benefits box */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -85,7 +93,6 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -134,6 +141,10 @@ p {
     max-width: 150px;
 }
 
+/* benefit box end */
+
+
+/* search engine optimization box section */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -142,7 +153,15 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+.search-engine-optimization img {
+    max-height: 200px;
+}
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
 
+/* online reputation management box section */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -151,7 +170,16 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+.online-reputation-management img {
+    max-height: 200px;
+}
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
 
+
+/* social media marketing box section */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -160,27 +188,8 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
 .social-media-marketing img {
     max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 .social-media-marketing h2 {
@@ -188,6 +197,8 @@ p {
     font-size: 36px;
 }
 
+
+/* footer */
 .footer {
     padding: 30px;
     clear: both;
